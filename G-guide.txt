@@ -1,1 +1,15 @@
-ECHO is on.
+C:\Users\User\Desktop\FSE12>cd General
+
+C:\Users\User\Desktop\FSE12\General>echo >G-guide.txt
+
+C:\Users\User\Desktop\FSE12\General>git init
+Initialized empty Git repository in C:/Users/User/Desktop/FSE12/General/.git/
+
+C:\Users\User\Desktop\FSE12\General>git add G-guide.txt
+
+C:\Users\User\Desktop\FSE12\General>git commit -m "Hello"
+[master (root-commit) 64e4c89] Hello
+ 1 file changed, 1 insertion(+)
+ create mode 100644 G-guide.txt
+
+C:\Users\User\Desktop\FSE12\General>  မြန်မာလိုရိုက်လို့ရပါတယ်။
