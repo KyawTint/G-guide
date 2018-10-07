@@ -1,91 +1,73 @@
-Command ေရးနည္း (၃) မ်ိဳး ျဖစ္တဲ့
-Command Prompt ျဖင့္ေရးျခင္း။
-(start - search မွ com လို႔ရိုက္ထည့္ၿပီးရွာသည္။)
-Visual Studo Code ကဲ့သုိ႔ text editor ျဖင့္ေရးျခင္း။
-(Visual Studo Code ဖြင့္ထားၿပီး Ctrl + ~ key ျဖင့္၀င္လွ်င္
-ေအာက္မွာ Command Prompt က်လာသည္။)
-Google Chrome ကဲ့သို႔ browser မွ inspect - console ျဖင့္ေရးသားျခင္း 
-(right click သို႔မဟုတ္ Ctrl+Shift+I ျဖင့္ inspect ၀င္ၿပီး console ကို 
+Command ရေးနည်း (၃) မျိုး ဖြစ်တဲ့
+Command Prompt ဖြင့်ရေးခြင်း။
+(start - search မှ com လို့ရိုက်ထည့်ပြီးရှာသည်။)
+Visual Studo Code ကဲ့သို့ text editor ဖြင့်ရေးခြင်း။
+(Visual Studo Code ဖွင့်ထားပြီး Ctrl + ~ key ဖြင့်ဝင်လျှင်
+အောက်မှာ Command Prompt ကျလာသည်။)
+Google Chrome ကဲ့သို့ browser မှ inspect - console ဖြင့်ရေးသားခြင်း 
+(right click သို့မဟုတ် Ctrl+Shift+I ဖြင့် inspect ဝင်ပြီး console ကို 
 
-choose) မွေရးျခင္း။ စသည္ တစ္ခုခုကိုသံုးၿပီး 
-မိမိေရးလိုသည့္ ဖိုင္ကို D ထဲမွာျဖစ္ျဖစ္၊ Desktob ေပၚမွာျဖစ္ျဖစ္ 
+choose) မှရေးခြင်း။ စသည် တစ်ခုခုကိုသုံးပြီး 
+မိမိရေးလိုသည့် ဖိုင်ကို D ထဲမှာဖြစ်ဖြစ်၊ Desktob ပေါ်မှာဖြစ်ဖြစ်ဆောက်ပါမည်။
 
-ေဆာက္ပါမည္။
+ဥပမာ။  Desktop\FSE12 ဆိုတဲ့ Folder ထဲမှာ General ဆိုတဲ့ Folder ကိုဆောက်မယ်ဆိုရင်
 
-ဥပမာ။  Desktop\FSE12 ဆိုတဲ့ Folder ထဲမွာ General ဆိုတဲ့ Folder 
-
-ကိုေဆာက္မယ္ဆိုရင္
 C:\\Users\User\Desktop\FSE12>mkdir General
-(mkdir ဆိုတာ make directory- Folder ေဆာက္တာ။)
+(mkdir ဆိုတာ make directory- Folder ဆောက်တာ။)
 
-C:\Users\User\Desktop\FSE12> ရဲ႕ေနာက္မွာ cd General လို႔ရိုက္ၿပီး 
+C:\Users\User\Desktop\FSE12> ရဲ့နောက်မှာ cd General လို့ရိုက်ပြီး General Folder ထဲကိုဝင်ပါ။
 
-General Folder ထဲကို၀င္ပါ။
-
-General Folder ထဲေရာက္တာဒီလိုေတြ႕ပါမည္ -
+General Folder ထဲရောက်တာဒီလိုတွေ့ပါမည် -
 C:\Users\User\Desktop\FSE12\General> 
 
-ေနာက္က echo >G-guide.txt ဆိုၿပီး မိမိေပးလိုတဲ့နာမည္နဲ႔ .txt 
+နောက်က echo >G-guide.txt ဆိုပြီး မိမိပေးလိုတဲ့နာမည်နဲ့ .txt ဖိုင်တစ်ခုဆောက်ပါတယ်။ 
+(တကယ့် Desktop က Folder ထဲမှာလည်း သွားဆောက်တာကိုကြည့်လို့ရပါတယ်။)
 
-ဖိုင္တစ္ခုေဆာက္ပါတယ္။ (တကယ့္ Desktop က Folder ထဲမွာလည္း 
-
-သြားေဆာက္တာကိုၾကည့္လို႔ရပါတယ္။)
-
-C:\Users\User\Desktop\FSE12\General> ဒီလိုက်လာၿပီး ေနာက္က git 
-
-init ကိုရိုက္ထည့္ပါ။ 
+C:\Users\User\Desktop\FSE12\General> ဒီလိုကျလာပြီး နောက်က git init ကိုရိုက်ထည့်ပါ။ 
 Initialized empty Git repository in 
+C:/Users/User/Desktop/FSE12/General/.git/ ကျလာပြီး
+(တကယ့် Desktop က Folder ထဲမှာလည်း .git Folder ဆောက်သွားတာကိုကြည့်လို့ရပါတယ်။)
 
-C:/Users/User/Desktop/FSE12/General/.git/ က်လာၿပီး
-(တကယ့္ Desktop က Folder ထဲမွာလည္း .git Folder 
+C:\Users\User\Desktop\FSE12\General> ဒီလိုအဆုံးသတ်ပါလိမ့်မယ်။
+သူ့နောက်က git add G-guide.txt ကိုရိုက်ထည့်ပါ။
+(မိမိထည့်လိုသည့် file .txt ကိုထည့်တာပါ။)
 
-ေဆာက္သြားတာကိုၾကည့္လို႔ရပါတယ္။)
-
-C:\Users\User\Desktop\FSE12\General> ဒီလိုအဆံုးသတ္ပါလိမ့္မယ္။
-သူ႔ေနာက္က git add G-guide.txt ကိုရိုက္ထည့္ပါ။
-(မိမိထည့္လိုသည့္ file .txt ကိုထည့္တာပါ။)
-
-C:\Users\User\Desktop\FSE12\General> ဘဲျပန္က်လာပါမည္။ ေနာက္က
-git commit -m "Hello" လိုမ်ိဳး မိမိေပးလိုသည့္ commit ကို 
-
-အဖြင့္အပိတ္ေကာ္မာထဲမွာေရးထည့္ပါ။
+C:\Users\User\Desktop\FSE12\General> ဘဲပြန်ကျလာပါမည်။ နောက်က
+git commit -m "Hello" လိုမျိုး မိမိပေးလိုသည့် commit ကို အဖွင့်အပိတ်ကော်မာထဲမှာရေးထည့်ပါ။
 [master (root-commit) 64e4c89] Hello
  1 file changed, 1 insertion(+)
- create mode 100644 G-guide.txt  နဲ႔
-C:\Users\User\Desktop\FSE12\General> က်လာပါမည္။ 
+ create mode 100644 G-guide.txt  နဲ့
+C:\Users\User\Desktop\FSE12\General> ကျလာပါမည်။ 
 
-တခ်ိန္တည္းမွာဘဲ
-URL Bar မွာ https://github.com/KyawTint ဆို ၿပီးမိမိ github account 
 
-ကိုဖြင့္လိုက္ပါ။
-sing in လုပ္ပါ။ Unsename နဲ႔ password ေတြျပန္ျဖည့္ရပါမယ္။
-အထက္ Bar တန္းေပၚက + လကၡဏာကိုႏွိပ္ၿပီး 
-New repostory - Owner / Repository ရဲ႕ name မွာ မိမိတင္လိုတဲ့ file 
 
-(ပထမ desktop မွာ လုပ္ခဲ့တဲ့ file နဲ႔ တူရမည္။) ျဖည့္။
-public ေရြး။
-create repository ႏွိပ္ပါ။
+တချိန်တည်းမှာဘဲ
+URL Bar မှာ https://github.com/KyawTint ဆို ပြီးမိမိ github account ကိုဖွင့်လိုက်ပါ။
+sing in လုပ်ပါ။ Unsename နဲ့ password တွေပြန်ဖြည့်ရပါမယ်။
+အထက် Bar တန်းပေါ်က + လက္ခဏာကိုနှိပ်ပြီး 
+New repostory - Owner / Repository ရဲ့ name မှာ မိမိတင်လိုတဲ့ file 
+(ပထမ desktop မှာ လုပ်ခဲ့တဲ့ file နဲ့ တူရမည်။) ဖြည့်။
+public ရွေး။
+create repository နှိပ်ပါ။
 
-မူလ commit line ထဲျပန္သြားၿပီး ေနာက္ဆံုးေရာက္ေနတဲ့
+
+မူလ commit line ထဲပြန်သွားပြီး နောက်ဆုံးရောက်နေတဲ့
 C:\Users\User\Desktop\FSE12\General> 
-ရဲ႕ေနာက္မွာ ခုဏ github မွာရွိတဲ့ 
+ရဲ့နောက်မှာ ခုဏ github မှာရှိတဲ့ 
 echo "# GithubGuide.txt" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin 
-
-https://github.com/KyawTint/GithubGuide.txt.git
+git remote add origin https://github.com/KyawTint/GithubGuide.txt.git
 git push -u origin master 
 ထဲက
-git remote add origin 
 
-https://github.com/KyawTint/GithubGuide.txt.git ကိုကူးထည့္ 
-https://github.com/KyawTint/G-guide.git နဲ႔
+git remote add origin https://github.com/KyawTint/GithubGuide.txt.git ကိုကူးထည့် 
+https://github.com/KyawTint/G-guide.git နဲ့
 
-C:\Users\User\Desktop\FSE12\General> က်လာၿပီး
-ေနာက္က git push -u origin master ကိုရိုက္ထည့္။
-ခဏေစာင့္။ အလုပ္ၿပီးလွ်င္ 
+C:\Users\User\Desktop\FSE12\General> ကျလာပြီး
+နောက်က git push -u origin master ကိုရိုက်ထည့်။
+ခဏစောင့်။ အလုပ်ပြီးလျှင် 
 
 Enumerating objects: 3, done.
 Counting objects: 100% (3/3), done.
@@ -99,38 +81,37 @@ To https://github.com/KyawTint/G-guide.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 
-စာေတြက်လာၿပီး ေနာက္ဆံုးမွာ
+စာတွေကျလာပြီး နောက်ဆုံးမှာ
 C:\Users\User\Desktop\FSE12\General>
-နဲ႔အဆံုးသတ္ပါတယ္။ ဒါဆိုဒီ Procress ၿပီးပါၿပီ။
+နဲ့အဆုံးသတ်ပါတယ်။ ဒါဆိုဒီ Procress ပြီးပါပြီ။
+
+
+
 
 [
-ခုဏက ဖိုင္အျဖစ္ဘဲတင္လိုက္တာျဖစ္ၿပီး ၄င္းဖိုင္အတြင္းမွ 
+ခုဏက ဖိုင်အဖြစ်ဘဲတင်လိုက်တာဖြစ်ပြီး ၄င်းဖိုင်အတွင်းမှ စာသားများကိုပြင်ချင်တယ်ဆိုရင်တော့ 
+URL မှာ https://github.com/KyawTint/ ကိုရိုက်
+Popular repositories ထဲကမိမိပြင်လိုတဲ့ file ကို Mouse နဲ့တောက်ဖွင့်
+အပေါ်မှာ KyawTint/G-guide ဆိုပြီး မိမိ account နာမည်/ File အမည်တွေ့ရပါမည်။
 
-စာသားမ်ားကိုျပင္ခ်င္တယ္ဆိုရင္ေတာ့ 
-URL မွာ https://github.com/KyawTint/ ကိုရိုက္
-Popular repositories ထဲကမိမိျပင္လိုတဲ့ file ကို Mouse နဲ႔ေတာက္ဖြင့္
-အေပၚမွာ KyawTint/G-guide ဆိုၿပီး မိမိ account နာမည္/ File 
-
-အမည္ေတြ႕ရပါမည္။
-G-guide.txt ဆိုတာကိုဖြင့္ၿပီး Edit this file ဆိုတဲ့ ခဲတံပံုစံေလးကို click ရင္ 
-
-ျပင္လို႔ရတဲ့ပံုစံက်လာတယ္။
-အျပင္မွာ တကယ္ရိုက္ထားတဲ့စာေတြကို ကူးယူထည့္ႏိုင္ပါသည္။
-ၿပီးလွ်င္ Commit changes button ကိုႏွိပ္ၿပီးအတည္ျပဳပါမည္။
+G-guide.txt ဆိုတာကိုဖွင့်ပြီး Edit this file ဆိုတဲ့ ခဲတံပုံစံလေးကို click ရင် 
+ပြင်လို့ရတဲ့ပုံစံကျလာတယ်။
+အပြင်မှာ တကယ်ရိုက်ထားတဲ့စာတွေကို ကူးယူထည့်နိုင်ပါသည်။
+ပြီးလျှင် Commit changes button ကိုနှိပ်ပြီးအတည်ပြုပါမည်။
 ]
 
 
-ဒီလုပ္ေဆာင္ခ်က္ကို Slack မွာတင္ခ်င္တယ္ဆိုရင္ေတာ့ 
-Quick Setup ေအာက္က SSH ေဘးက 
+ဒီလုပ်ဆောင်ချက်ကို Slack မှာတင်ချင်တယ်ဆိုရင်တော့ 
+Quick Setup အောက်က SSH ဘေးက 
 
 https://https://github.com/KyawTint/file.git ကို 
-Slack ရဲ႕ Message Box မွာ တင္လိုက္ရင္ၿပီးပါၿပီ။
+Slack ရဲ့ Message Box မှာ တင်လိုက်ရင်ပြီးပါပြီ။
 
 
 
 
 ------------------------------------------
-ဒါကအခ်ဳပ္ပါ -
+ဒါကအချုပ်ပါ -
 Microsoft
 Windows [Version 6.1.7601]
 Copyright
@@ -174,13 +155,192 @@ C:\Users\User\Desktop\FSE12\General>
 
 -------------------------------------
 
+ဒါက အာလုံးရဲ့ လမ်းညွှန်ပါ
+
+echo "# GithubGuide.txt" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin 
+
+https://github.com/KyawTint/GithubGuide.txt.git
+git push -u origin master
+
+ပြီးပါပြီ။
+
+
+-------------------------------------
+
+{{ဒါက Zawgyi-One အတွက်ပါ}}
+
+Command ေရးနည္း (၃) မ်ိုး ျဖစ္တဲ့
+Command Prompt ျဖင့္ေရးျခင္း။
+(start - search မွ com လို့ရိုက္ထည့္ျပီးရွာသည္။)
+Visual Studo Code ကဲ့သို့ text editor ျဖင့္ေရးျခင္း။
+(Visual Studo Code ဖြင့္ထားျပီး Ctrl + ~ key ျဖင့္ဝင္လွ်င္
+ေအာက္မွာ Command Prompt က်လာသည္။)
+Google Chrome ကဲ့သို့ browser မွ inspect - console ျဖင့္ေရးသားျခင္း 
+(right click သို့မဟုတ္ Ctrl+Shift+I ျဖင့္ inspect ဝင္ျပီး console ကို 
+
+choose) မွေရးျခင္း။ စသည္ တစ္ခုခုကိုသံုးျပီး 
+မိမိေရးလိုသည့္ ဖိုင္ကို D ထဲမွာျဖစ္ျဖစ္၊ Desktob ေပၚမွာျဖစ္ျဖစ္ေဆာက္ပါမည္။
+
+ဥပမာ။  Desktop\FSE12 ဆိုတဲ့ Folder ထဲမွာ General ဆိုတဲ့ Folder ကိုေဆာက္မယ္ဆိုရင္
+
+C:\\Users\User\Desktop\FSE12>mkdir General
+(mkdir ဆိုတာ make directory- Folder ေဆာက္တာ။)
+
+C:\Users\User\Desktop\FSE12> ရဲ့ေနာက္မွာ cd General လို့ရိုက္ျပီး General Folder ထဲကိုဝင္ပါ။
+
+General Folder ထဲေရာက္တာဒီလိုေတြ့ပါမည္ -
+C:\Users\User\Desktop\FSE12\General> 
+
+ေနာက္က echo >G-guide.txt ဆိုျပီး မိမိေပးလိုတဲ့နာမည္နဲ့ .txt ဖိုင္တစ္ခုေဆာက္ပါတယ္။ 
+(တကယ့္ Desktop က Folder ထဲမွာလည္း သြားေဆာက္တာကိုျကည့္လို့ရပါတယ္။)
+
+C:\Users\User\Desktop\FSE12\General> ဒီလိုက်လာျပီး ေနာက္က git init ကိုရိုက္ထည့္ပါ။ 
+Initialized empty Git repository in 
+C:/Users/User/Desktop/FSE12/General/.git/ က်လာျပီး
+(တကယ့္ Desktop က Folder ထဲမွာလည္း .git Folder ေဆာက္သြားတာကိုျကည့္လို့ရပါတယ္။)
+
+C:\Users\User\Desktop\FSE12\General> ဒီလိုအဆံုးသတ္ပါလိမ့္မယ္။
+သူ့ေနာက္က git add G-guide.txt ကိုရိုက္ထည့္ပါ။
+(မိမိထည့္လိုသည့္ file .txt ကိုထည့္တာပါ။)
+
+C:\Users\User\Desktop\FSE12\General> ဘဲျပန္က်လာပါမည္။ ေနာက္က
+git commit -m "Hello" လိုမ်ိုး မိမိေပးလိုသည့္ commit ကို အဖြင့္အပိတ္ေကာ္မာထဲမွာေရးထည့္ပါ။
+[master (root-commit) 64e4c89] Hello
+ 1 file changed, 1 insertion(+)
+ create mode 100644 G-guide.txt  နဲ့
+C:\Users\User\Desktop\FSE12\General> က်လာပါမည္။ 
+
+
+
+တခ်ိန္တည္းမွာဘဲ
+URL Bar မွာ https://github.com/KyawTint ဆို ျပီးမိမိ github account ကိုဖြင့္လိုက္ပါ။
+sing in လုပ္ပါ။ Unsename နဲ့ password ေတြျပန္ျဖည့္ရပါမယ္။
+အထက္ Bar တန္းေပၚက + လကၡဏာကိုနွိပ္ျပီး 
+New repostory - Owner / Repository ရဲ့ name မွာ မိမိတင္လိုတဲ့ file 
+(ပထမ desktop မွာ လုပ္ခဲ့တဲ့ file နဲ့ တူရမည္။) ျဖည့္။
+public ေရြး။
+create repository နွိပ္ပါ။
+
+
+မူလ commit line ထဲျပန္သြားျပီး ေနာက္ဆံုးေရာက္ေနတဲ့
+C:\Users\User\Desktop\FSE12\General> 
+ရဲ့ေနာက္မွာ ခုဏ github မွာရွိတဲ့ 
+echo "# GithubGuide.txt" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/KyawTint/GithubGuide.txt.git
+git push -u origin master 
+ထဲက
+
+git remote add origin https://github.com/KyawTint/GithubGuide.txt.git ကိုကူးထည့္ 
+https://github.com/KyawTint/G-guide.git နဲ့
+
+C:\Users\User\Desktop\FSE12\General> က်လာျပီး
+ေနာက္က git push -u origin master ကိုရိုက္ထည့္။
+ခဏေစာင့္။ အလုပ္ျပီးလွ်င္ 
+
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 231 bytes | 77.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/KyawTint/G-guide/pull/new/master
+remote:
+To https://github.com/KyawTint/G-guide.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+စာေတြက်လာျပီး ေနာက္ဆံုးမွာ
+C:\Users\User\Desktop\FSE12\General>
+နဲ့အဆံုးသတ္ပါတယ္။ ဒါဆိုဒီ Procress ျပီးပါျပီ။
 
 
 
 
-ၤ
+[
+ခုဏက ဖိုင္အျဖစ္ဘဲတင္လိုက္တာျဖစ္ျပီး ၄င္းဖိုင္အတြင္းမွ စာသားမ်ားကိုျပင္ခ်င္တယ္ဆိုရင္ေတာ့ 
+URL မွာ https://github.com/KyawTint/ ကိုရိုက္
+Popular repositories ထဲကမိမိျပင္လိုတဲ့ file ကို Mouse နဲ့ေတာက္ဖြင့္
+အေပၚမွာ KyawTint/G-guide ဆိုျပီး မိမိ account နာမည္/ File အမည္ေတြ့ရပါမည္။
+
+G-guide.txt ဆိုတာကိုဖြင့္ျပီး Edit this file ဆိုတဲ့ ခဲတံပံုစံေလးကို click ရင္ 
+ျပင္လို့ရတဲ့ပံုစံက်လာတယ္။
+အျပင္မွာ တကယ္ရိုက္ထားတဲ့စာေတြကို ကူးယူထည့္နိုင္ပါသည္။
+ျပီးလွ်င္ Commit changes button ကိုနွိပ္ျပီးအတည္ျပုပါမည္။
+]
+
+
+ဒီလုပ္ေဆာင္ခ်က္ကို Slack မွာတင္ခ်င္တယ္ဆိုရင္ေတာ့ 
+Quick Setup ေအာက္က SSH ေဘးက 
+
+https://https://github.com/KyawTint/file.git ကို 
+Slack ရဲ့ Message Box မွာ တင္လိုက္ရင္ျပီးပါျပီ။
 
 
 
+
+------------------------------------------
+ဒါကအခ်ုပ္ပါ -
+Microsoft
+Windows [Version 6.1.7601]
+Copyright
+(c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\User\Desktop\FSE12>cd General
+
+C:\Users\User\Desktop\FSE12\General>echo >G-guide.txt
+
+C:\Users\User\Desktop\FSE12\General>git init
+Initialized empty Git repository in 
+
+C:/Users/User/Desktop/FSE12/General/.git/
+
+C:\Users\User\Desktop\FSE12\General>git add G-guide.txt
+
+C:\Users\User\Desktop\FSE12\General>git commit -m "Hello"
+[master (root-commit) 64e4c89] Hello
+ 1 file changed, 1 insertion(+)
+ create mode 100644 G-guide.txt
+
+C:\Users\User\Desktop\FSE12\General>git remote add origin 
+
+https://github.com/KyawTint/G-guide.git
+
+C:\Users\User\Desktop\FSE12\General>git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 231 bytes | 77.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/KyawTint/G-guide/pull/new/master
+remote:
+To https://github.com/KyawTint/G-guide.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\User\Desktop\FSE12\General>
+
+
+-------------------------------------
+
+ဒါက အာလံုးရဲ့ လမ္းညွြန္ပါ
+
+echo "# GithubGuide.txt" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin 
+
+https://github.com/KyawTint/GithubGuide.txt.git
+git push -u origin master
+
+ျပီးပါျပီ။
 
 
