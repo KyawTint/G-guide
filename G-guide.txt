@@ -1,4 +1,4 @@
-{{ဒါက Zawgyi-One အတွက်ပါ}}
+{{ဒါက Zawgyi-One အတြက္ပါ}}
 
 Command ေရးနည္း (၃) မ်ိုး ျဖစ္တဲ့
 Command Prompt ျဖင့္ေရးျခင္း။
