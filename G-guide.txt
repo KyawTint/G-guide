@@ -1,15 +1,10 @@
-C:\Users\User\Desktop\FSE12>cd General
-
-C:\Users\User\Desktop\FSE12\General>echo >G-guide.txt
-
-C:\Users\User\Desktop\FSE12\General>git init
-Initialized empty Git repository in C:/Users/User/Desktop/FSE12/General/.git/
-
-C:\Users\User\Desktop\FSE12\General>git add G-guide.txt
-
-C:\Users\User\Desktop\FSE12\General>git commit -m "Hello"
-[master (root-commit) 64e4c89] Hello
- 1 file changed, 1 insertion(+)
- create mode 100644 G-guide.txt
-
-C:\Users\User\Desktop\FSE12\General>  မြန်မာလိုရိုက်လို့ရပါတယ်။
+ပြီးရင် Command ရေးနည်း (၃) မျိုး ဖြစ်တဲ့
+Command Prompt ဖြင့်ရေးခြင်း။
+(start - search မှ com လို့ရိုက်ထည့်ပြီးရှာသည်။)
+Visual Studo Code ကဲ့သို့ text editor ဖြင့်ရေးခြင်း။
+(Visual Studo Code ဖွင့်ထားပြီး Ctrl + ~ key ဖြင့်ဝင်လျှင်
+အောက်မှာ Command Prompt ကျလာသည်။)
+Google Chrome ကဲ့သို့ browser မှ inspect - console ဖြင့်ရေးသားခြင်း 
+(right click သို့မဟုတ် Ctrl+Shift+I ဖြင့် inspect ဝင်ပြီး console ကို choose)
+ တို့မှ တစ်ခုခုကိုသုံးပြီး
+Github ထဲတင်မည့် ဖိုင်ရှိတဲ့နေရာကို သွားထားပါ။
